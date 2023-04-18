@@ -4,6 +4,21 @@
   <title>Project Name</title>
 </head>
 <body>
+  <div class="container">
+    <h1>Type in a number and get a dinosaur!</h1>
+    <p>To get a certain amount of dinosaur names from a input number, please enter a number. Here are three examples:</p>
+    <pre>
+      1 : stegosaurus
+      2 : Tyrannysaurus Rex, Triceratops
+      3 : Arhceptryx, Velociraptor, Brachiosaurus
+    </pre>
+    <form>
+      <label for="numberOfDino">Enter a number of one or more:</label>
+      <input id="numberOfDino" type="number" name="numberOfDino">
+      <button type="submit" class="btn-success" id="buttonForDino">Get Yer Dinos</button>
+    </form>
+    <p id="showResponse"></p>
+  </div>
   
 </body>
 </html>
