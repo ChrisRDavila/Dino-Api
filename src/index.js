@@ -19,7 +19,8 @@ function getDinos(wordNum) {
 //UI Logic
 
 function printElements(data) {
-  document.querySelector('#showResponse').innerText = `${data[0]} are all dinosaurs!`;
+  document.querySelector('#showResponse').innerText = `Here's your dinosaur(s) 
+  ${data[0]}`;
 }
 
 function printError(error) {
