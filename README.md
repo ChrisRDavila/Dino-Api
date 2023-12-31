@@ -1,8 +1,8 @@
-# (Application Name)
+# Dino API
 
-#### (Brief Description of Application)
+#### Make Api call in js file to display info
 
-#### By (Your Name Here)
+#### By (Christopher Davila
 
 ## Technologies Used
 
